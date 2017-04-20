@@ -1,0 +1,19 @@
+{
+  "name": "abcdj",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datafunk/abcdj.git"
+  },
+  "author": "@datafunk",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/datafunk/abcdj/issues"
+  },
+  "homepage": "https://github.com/datafunk/abcdj#readme"
+}
