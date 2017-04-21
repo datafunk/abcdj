@@ -96,7 +96,7 @@
 						<a href="#/1/8">
 							<img title="Bus Timetable Changes" class="montage fragment fade-in" style="transform: translate(-200px,-150px) rotate(330deg)" src="./assets/images/cbd-bus-full.jpg" alt="" width="" height="200" /> </a>
 
-						<img class="montage fragment" title="&nbsp;" width="0" height="0" style="visibility:hidden;"/>
+						<img class="montage fragment" title="Data Driven Stories&hellip;" width="0" height="0" style="visibility:hidden;"/>
 
 					</section>
 
@@ -163,6 +163,11 @@
 				$('.montage').on('mouseover', function(event){
 					// console.log(event.target.title)
 					$('#story_title').html(event.target.title)
+				})
+
+				$('.montage').on('mouseout', function(event){
+					// console.log(event.target.title)
+					$('#story_title').html('Data Driven Stories&hellip;')
 				})
 
 			});
